@@ -68,21 +68,3 @@ async def call_agent_async(query):
     except Exception as e:
         final_response_text = f"ERROR during agent run: {e}"
     return final_response_text
-
-# from ag_ui.core import RunAgentInput,TextMessageContentEvent, EventType
-# from ag_ui.encoder import EventEncoder
-
-# # Create an event
-# event = TextMessageContentEvent(
-#     type=EventType.TEXT_MESSAGE_CONTENT,
-#     message_id="msg_123",
-#     delta="Hello, world!"
-# )
-
-# # Initialize the encoder
-# encoder = EventEncoder()
-
-# # Encode the event
-# encoded_event = encoder.encode(event)
-# print(encoded_event)
-# # Output: data: {"type":"TEXT_MESSAGE_CONTENT","messageId":"msg_123","delta":"Hello, world!"}\n\n
