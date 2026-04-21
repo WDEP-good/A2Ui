@@ -1,16 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
 node_modules
-.DS_Store
-.wireit
 dist
-.env
-.idx
-.vscode
-__pycache__
-*.pyc
-.angular
+dist-ssr
+*.local
 
-# MkDocs build output
-site/
-
-# Python virtual environment
-.venv/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
